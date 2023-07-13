@@ -1,0 +1,119 @@
+{
+    "accounts": [
+        {
+            "id": 1,
+            "name": "Adam.Kennedy",
+            "groupId": "100,101",
+            "groupName": "Test-A,Test-B",
+            "policyId": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Albert.Woods",
+            "groupId": "100,101",
+            "groupName": "Test-A,Test-B",
+            "policyId": [
+                1,
+                3
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Alice.Becker",
+            "groupId": "102,103",
+            "groupName": "Test-C,Test-D",
+            "policyId": [
+                2,
+                3
+            ]
+        }
+    ],
+    "groups": [
+        {
+            "groupId": 100,
+            "groupName": "Test-A"
+        },
+        {
+            "groupId": 101,
+            "groupName": "Test-B"
+        },
+        {
+            "groupId": 102,
+            "groupName": "Test-C"
+        },
+        {
+            "groupId": 103,
+            "groupName": "Test-D"
+        },
+        {
+            "id": 1,
+            "groupName": "Test-E"
+        }
+    ],
+    "policy": [
+        {
+            "id": 1,
+            "policyName": "Policy-A",
+            "description": "Testing-A Policy"
+        },
+        {
+            "id": 2,
+            "policyName": "Policy-B",
+            "description": "Testing-B Policy"
+        },
+        {
+            "policyName": "Policy-C",
+            "description": "Testing-C Policy",
+            "id": 3
+        },
+        {
+            "policyName": "Policy-D",
+            "description": "Testing-D Policy",
+            "usersList": [
+                1
+            ],
+            "id": 4
+        }
+    ],
+    "EmiratesIDAPI": [
+        {
+            "id": "784199635316427",
+            "UserDetails":{
+                "firstName":"Rakesh",
+                "lastName":"Vadnala",
+                "EnglishName":"Rakesh Vadnala",
+                "ArabicName":"راكيش فادنالا"   
+            }
+        },
+        {
+            "id": "784222233333335",
+            "UserDetails":{
+                "firstName":"Shandeep",
+                "lastName":"Srinivas",
+                "EnglishName":"Shandeep Srinivas",
+                "ArabicName":"شانديب سرينيفاس"    
+            }
+        },
+        {
+            "id": "784222233333336",
+            "UserDetails":{
+                "firstName":"Rex",
+                "lastName":"Infant",
+                "EnglishName":"Rex Infant",
+                "ArabicName":"ركس الرضع"    
+            }
+        },
+       {
+            "id": "784456789012345",
+            "UserDetails":{
+                "firstName":"Amala",
+                "lastName":"Sunny",
+                "EnglishName":"Amala Sunny",
+                "ArabicName":"امالا صني"    
+            }
+       }
+    ]
+}
